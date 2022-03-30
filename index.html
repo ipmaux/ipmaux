@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+   <meta charset="utf-8">
+   <title>How to Apply Number Fomatting to Columns Within Excel Spreadsheets</title>
+
+   <meta name="author" content="Lani Ip">
+   <meta name="description" content="This is a webpage outlining a basic skill of how to apply specific types of number formatting to cells and columns using the Excel application.">
+
+<link rel="stylesheet" href="styles/style.css">
+</head>
+
+  <body>
+
+     <h1>How to Apply Different Number Formats to Excel Columns</h1>
+
+<p>Before applying specific commands in an Excel spreadsheet, data in different cells within a singular column must all have the same number formatting.</p>
+
+  <table>
+   <caption>An example of a spreadsheet in which cells within the same column have inconsistent number formatting</caption>
+   <thead> 
+    <tr>
+     <th scope="col">Student ID</th>
+     <th scope="col">Academic Program</th>
+     <th scope="col">Action Date</th>
+     <th scope="col">Fees</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td>010312521</td>
+     <td>ACC</td>
+     <td>1/15/2021</td>
+     <td>1299</td>
+    </tr>
+    <tr>
+     <td>103671192</td>
+     <td>ACF</td>
+     <td>Thursday, January 14, 2021</td>
+     <td>1399.99</td>
+    </tr>
+    <tr>
+     <td>103680213</td>
+     <td>BAB</td>
+     <td>12/15/2020</td>
+     <td>1209.99</td>
+    </tr>
+   </tbody> 
+   <tfoot> 
+    <tr>
+     <td>103726214</td>
+     <td>BBS</td>
+     <td>Friday, December 11, 2020</td>
+     <td>1209</td>
+    </tr>
+   </tfoot> 
+</table>
+ 
+    <h2>Applying the Short Date Number Format</h2>
+      <ol>
+     <li><strong>Select</strong> the entire <strong>column or cell(s)</strong> that require formatting. In this example, <strong>column E</strong> (Action Date) should be expressed in the same date format, which will be the <strong>short date</strong> option.<br><strong>Select column E</strong> by moving the <strong>cursor</strong> over the <strong>column E</strong> label. The cursor should display a <strong>black downward arrow</strong> and <strong>select</strong> it. All of <strong>column E</strong> should be <strong>highlighted</strong>, indicating that the entire column and its data are <strong>selected.</strong>
+    
+   <figure>
+    <img src="media/columne.jpg" 
+         alt="Selecting column E's heading label to select all of it's data contents within an Excel spreadsheet"
+         width="1016"   
+         height="686">
+
+      <figcaption>Fig. 1. An entire column and it's contents selected in an Excel spreadsheet.</figcaption>
+</figure>
+</li>
+
+    <li><strong>Select</strong> the <strong>short date</strong> option from the number format drop down menu withn the <strong>Number</strong> group command.
+
+   <figure>
+   <img class="special" src="media/formattinge.gif"
+        alt="The process of selecting all of a column's contents and applying a specific type of number formatting in an Excel spreadsheet"
+        width="1280"
+        height="720">
+
+       <figcaption>Fig. 2. The process of selecting all of Column E's data contents and applying the short date number format option from the Numbers command group within the Excel application.</figcaption>
+   </figure>
+  </li>
+</ol>
+
+    <h2>Applying a Currency Number Format</h2>
+
+<p>The final column that requires consistent number formating is <strong>column H</strong> (fees). A dollar value format consistent to <strong>two decimal places</strong> is required.<br>To select all of <strong>column H's</strong> contents, follow the <strong>step 1</strong> process from the above <em>Applying the Short Date Number Format</em> example.</p>
+  <ol>
+     <li>Once <strong>column H</strong> is selected, select the <strong>currency</strong> numbert format option from the number format drop down menu within the <strong>Number</strong> group command.</li>
+      <li>To assign a consistent <strong>decimal format</strong> use the <strong>increase</strong> or <strong>decrease decimal</strong> commands within the <strong>Number</strong> group command until all values in the column are expressed to two decimal places. The number values in this column are now all expressed as currency amounts to two decimal places.</li>
+  </ol>
+
+   <video controls>
+     <source src="media/columnh.webm" type="video/webm">
+     <source src="media/columnh.mp4" type="video/mp4">
+     <p>Your browser does not support the HTML5 video element.</p>
+</video>
+
+<p>Now that there is consistent number formatting within all columns, more advanced formatting, filtering, and sorting can be applied to the dataset.<br>Try it yourself, apply different number formatting options to your own data spreadsheet.</p>
+
+<p>Leave feedback about the tutorial</p>
+
+  <form action="/my-handling-form-page.php" method="post">
+    <fieldset>
+	<legend>Commenter Information</legend>
+     <ul>
+       <li>
+         <label for="fname">First Name:</label>
+         <input type="text" id="fname" name="fname">
+       </li>
+       <li>
+         <label for="lname">Last Name:</label>
+         <input type="text" id="lname" name="lname">
+       </li> 
+      </ul>
+    </fieldset>
+      <ul>
+       <li>
+         <label for="comments">Comments:</label>
+         <textarea id="comments" name="comments"></textarea>
+       </li>
+      </ul>
+	 <div class="button">
+	     <button type="submit">Send your feedback</button>
+         </div>
+  </form>
+
+ </body>
+
+</html>
+
